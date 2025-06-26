@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32U5A5ZJT")(type "KiCad")(uri "${KIPRJMOD}/Downloads/STM32U5/KiCADv6/STM32U5A5ZJT.kicad_sym")(options "")(descr ""))
+  (lib (name "CrystalOscilator-FC4SDCBMF8.0-T1")(type "KiCad")(uri "${KIPRJMOD}/Downloads/CrystalOscilator_ul_FOXSDLF-080-20/2025-06-23_01-35-07.kicad_sym")(options "")(descr ""))
+)
