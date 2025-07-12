@@ -573,7 +573,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCPCB Part #",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -615,6 +621,14 @@
     [
       "e22ec7ef-d58f-4556-aec9-521f129d8eb8",
       "MCU"
+    ],
+    [
+      "b18d6738-cf71-49c1-bc44-c576c6d5c297",
+      "External Connections"
+    ],
+    [
+      "dcce5b57-fd6b-4d93-a9df-9259f2d6944b",
+      "Power"
     ]
   ],
   "text_variables": {}
