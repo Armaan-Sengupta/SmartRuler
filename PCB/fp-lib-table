@@ -4,4 +4,5 @@
   (lib (name "Crystal Oscilator FC4SDCBMF8.0-T1")(type "KiCad")(uri "${KIPRJMOD}/Downloads/CrystalOscilator_ul_FOXSDLF-080-20/footprints.pretty")(options "")(descr ""))
   (lib (name "BQ25185")(type "KiCad")(uri "${KIPRJMOD}/Downloads/BQ25185/footprints.pretty")(options "")(descr ""))
   (lib (name "LSM6DSV32X")(type "KiCad")(uri "${KIPRJMOD}/Downloads/LSM6DSV32X/footprints.pretty")(options "")(descr ""))
+  (lib (name "LibraryLoader")(type "KiCad")(uri "C:/Users/sengu/Documents/KiCad/LibraryLoader/SamacSys_Parts.pretty")(options "")(descr ""))
 )
