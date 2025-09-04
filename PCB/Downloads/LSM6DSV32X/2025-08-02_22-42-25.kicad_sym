@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "BQ25185DLHR"
+	(symbol "LSM6DSV32X"
 		(pin_names
 			(offset 0.254)
 		)
@@ -10,22 +10,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 25.4 10.16 0)
+			(at 33.02 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "BQ25185DLHR"
-			(at 25.4 7.62 0)
+		(property "Value" "LSM6DSV32X"
+			(at 33.02 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "BQ25185:WSON10_DLH_TEX"
+		(property "Footprint" "LSM6DSV32X:LGA-14L_2p5X3p0X0p86_STM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/bq25185"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsv32x.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "BQ25185DLHR"
+		(property "ki_keywords" "LSM6DSV32X"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WSON10_DLH_TEX WSON10_DLH_TEX-M WSON10_DLH_TEX-L"
+		(property "ki_fp_filters" "LGA-14L_2p5X3p0X0p86_STM LGA-14L_2p5X3p0X0p86_STM-M LGA-14L_2p5X3p0X0p86_STM-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72,10 +72,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "BQ25185DLHR_0_1"
+		(symbol "LSM6DSV32X_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -17.78)
+					(xy 7.62 5.08) (xy 7.62 -20.32)
 				)
 				(stroke
 					(width 0.127)
@@ -87,7 +87,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -17.78) (xy 43.18 -17.78)
+					(xy 7.62 -20.32) (xy 58.42 -20.32)
 				)
 				(stroke
 					(width 0.127)
@@ -99,7 +99,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 5.08) (xy 7.62 5.08)
+					(xy 58.42 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -111,7 +111,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -17.78) (xy 43.18 5.08)
+					(xy 58.42 -20.32) (xy 58.42 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -121,10 +121,10 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin unspecified line
 				(at 0 0 0)
 				(length 7.62)
-				(name "SYS"
+				(name "SDO/SA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -139,10 +139,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin unspecified line
 				(at 0 -2.54 0)
 				(length 7.62)
-				(name "BAT"
+				(name "SDx/AH1/Qvar1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -157,10 +157,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin unspecified line
 				(at 0 -5.08 0)
 				(length 7.62)
-				(name "STAT2"
+				(name "SCx/AH2/Qvar2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -175,10 +175,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 0 -7.62 0)
 				(length 7.62)
-				(name "/CE"
+				(name "INT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -193,10 +193,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -10.16 0)
 				(length 7.62)
-				(name "GND"
+				(name "VDD_IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -211,10 +211,100 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 50.8 0 180)
+			(pin power_out line
+				(at 0 -12.7 0)
 				(length 7.62)
-				(name "EPAD"
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 66.04 0 180)
+				(length 7.62)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 66.04 -2.54 180)
+				(length 7.62)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 66.04 -5.08 180)
+				(length 7.62)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 66.04 -7.62 180)
+				(length 7.62)
+				(name "SDO_Aux"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -229,10 +319,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 50.8 -2.54 180)
+			(pin unspecified line
+				(at 66.04 -10.16 180)
 				(length 7.62)
-				(name "IN"
+				(name "OCS_Aux"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -248,9 +338,9 @@
 				)
 			)
 			(pin output line
-				(at 50.8 -5.08 180)
+				(at 66.04 -12.7 180)
 				(length 7.62)
-				(name "STAT1"
+				(name "INT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -265,10 +355,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 50.8 -7.62 180)
+			(pin power_in line
+				(at 66.04 -15.24 180)
 				(length 7.62)
-				(name "ISET"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -276,42 +366,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 50.8 -10.16 180)
-				(length 7.62)
-				(name "ILIM/VSET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 50.8 -12.7 180)
-				(length 7.62)
-				(name "TS/MR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

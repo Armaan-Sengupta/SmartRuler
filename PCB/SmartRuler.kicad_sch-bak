@@ -1,0 +1,310 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a8261359-6329-4960-96c7-d82fbb91cdcc")
+	(paper "A3")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 189.23 153.67) (xy 205.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01723e45-30db-490f-b85d-61644ebb62a7")
+	)
+	(wire
+		(pts
+			(xy 205.74 137.16) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21557e41-83c2-4a96-96f4-32ede0b1871a")
+	)
+	(wire
+		(pts
+			(xy 189.23 140.97) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c2195d-d496-4949-983d-85b6ea502348")
+	)
+	(wire
+		(pts
+			(xy 196.85 137.16) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7053a36-eed4-4918-9118-b617d419bb74")
+	)
+	(wire
+		(pts
+			(xy 196.85 111.76) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccde1406-8236-4159-a4c3-5ec1952f8aaf")
+	)
+	(wire
+		(pts
+			(xy 189.23 144.78) (xy 205.74 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d862a198-526e-4136-8165-f67915471924")
+	)
+	(wire
+		(pts
+			(xy 189.23 149.86) (xy 205.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ac9e87-f919-4d63-9281-35e52435d155")
+	)
+	(sheet
+		(at 205.74 133.35)
+		(size 12.7 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b18d6738-cf71-49c1-bc44-c576c6d5c297")
+		(property "Sheetname" "External Connections"
+			(at 205.74 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 205.74 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWD_IO" input
+			(at 205.74 149.86 180)
+			(uuid "43422cdb-b004-427d-a6fc-04790a729eec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWD_CLK" input
+			(at 205.74 153.67 180)
+			(uuid "61e485dd-7897-432b-b372-be114ba89435")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 205.74 140.97 180)
+			(uuid "bc462da5-62ad-45f5-a81f-af440c5106b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" output
+			(at 205.74 137.16 180)
+			(uuid "5bd99e0c-e157-4491-8081-0102aeec2278")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 205.74 144.78 180)
+			(uuid "c22249f0-95fe-4ce7-aee8-5ec4886ce128")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartRuler"
+				(path "/a8261359-6329-4960-96c7-d82fbb91cdcc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 101.6)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dcce5b57-fd6b-4d93-a9df-9259f2d6944b")
+		(property "Sheetname" "Power"
+			(at 200.66 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 200.66 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBBUS" input
+			(at 200.66 111.76 180)
+			(uuid "baa1a95c-68ee-473f-b225-64d22e5dc187")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartRuler"
+				(path "/a8261359-6329-4960-96c7-d82fbb91cdcc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 97.79)
+		(size 39.37 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e22ec7ef-d58f-4556-aec9-521f129d8eb8")
+		(property "Sheetname" "MCU"
+			(at 149.86 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 149.86 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWD_IO" input
+			(at 189.23 149.86 0)
+			(uuid "727c7096-e148-464c-a764-a3e489d79157")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWD_CLK" input
+			(at 189.23 153.67 0)
+			(uuid "3588ac42-012c-4c7b-9daa-61c1f219f417")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" input
+			(at 189.23 140.97 0)
+			(uuid "cfb74a69-1a92-4349-b9a0-ef0377b2b078")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 189.23 144.78 0)
+			(uuid "23282b32-64bb-49f8-83a9-7f8d1e420e71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmartRuler"
+				(path "/a8261359-6329-4960-96c7-d82fbb91cdcc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
